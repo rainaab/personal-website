@@ -1,0 +1,3 @@
+[submodule "personal-website"]
+	path = personal-website
+	url = git@github.com:rainaab/personal-website-part2.git
