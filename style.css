@@ -1,7 +1,10 @@
 *{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     letter-spacing: 2px;
-
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
 }
 /* index.html */
 /* Nav Bar */
@@ -12,9 +15,9 @@ nav{
     text-align: center;
     margin-top: 20px;
 }
-a.active{
-    color: lightcoral;
-    border: 2px solid white;
+.active{
+    color: lightcoral !important;
+    border: 2px solid lightcoral ;
 }
 #home{
     font-size: x-large;
@@ -119,11 +122,15 @@ strong{
 }
 
 /* portfolio.html */
+p, #pheading{
+    margin-left: 75px;
+}
 
 #p1{
     background-color:hsla(39,100%, 50%, .5) ;
     border: 5px dashed orange;
     color: white;
+    margin-top: 50px;
     margin-bottom: 20px;
     padding-left: 10px;
     padding-bottom: 20px;
@@ -165,7 +172,7 @@ form{
 }
 #submit{
     margin-top: 200px;
-    margin-left: 550px;
+    margin-left: 50%;
     text-align: center;
     width: 100px;
     height: 50px;
@@ -190,5 +197,4 @@ form{
 #back{
     border: 2px solid plum;
     background-color: hsla(300, 47%, 75%, .5);
-
 }
