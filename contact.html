@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>Contact Me!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+         <!-- nav bar -->
+         <nav> 
+            <a href="index.html" id="home">Home</a>
+            <a href="about.html" id="about">About</a>
+            <a href="portfolio.html" id="portfolio">Portfolio</a>
+            <a class="active" href="contact.html" id="contact">Contact Me</a>
+        </nav>
+        <!-- Header of page -->
+        <h1 id="contactTitle">Contact Me!</h1>
+        <h3 id="contactDescription">I would love to hear from you! Feel free to reach out if you have any further questions or are interested in anything you see. :) </h3>
+        <!-- Form -->
+        <div id="form">
+        <form action="submit.html" target="_blank">
+            <!-- name box -->
+            <div id="nameBox">
+            <label for="name"> Name: </label><br>
+            <input type="text" id="nameInput" name="nameInput" style="width:200px; height: 25px"><br>
+            </div>
+            <!-- email box -->
+            <div id="emailBox">
+            <label for="email">Email: </label><br>
+            <input type="email" id="emailInput" name="emailInput" style="width:200px; height: 25px;"><br>
+            </div>
+            <!-- message box -->
+            <div id="messageBox">
+            <label for="message"> What Would You Like To Say?</label><br>
+            <textarea id="messageInput" name="messageInput" style="width: 700px; height: 200px;"></textarea><br>
+            </div>
+
+
+
+            <input type="submit" id="submit">
+        </form>
+        </div>
+
+    
+    </body>
+</html>

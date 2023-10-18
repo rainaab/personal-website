@@ -31,6 +31,11 @@ a.active{
     color: white;
     padding: 20px 20px;
 }
+#contact{
+    font-size: x-large;
+    color: white;
+    padding: 20px 20px;
+}
 /* personal pic */
 #personal-pic{
     width: 400px;
@@ -141,4 +146,49 @@ strong{
     margin-bottom: 20px;
     padding-left: 10px;
     padding-bottom: 20px;
+}
+/* contact.html  */
+
+form{
+    margin-top: 50px;
+    background-color: hsla(203, 92%, 75%, .5) ;
+    border: 5px dashed lightskyblue;
+    width: 70%;
+    height: 700px;
+    margin-left: 250px;
+}
+#contactTitle{
+    text-align: center;
+}
+#contactDescription{
+    text-align: center;
+}
+#submit{
+    margin-top: 200px;
+    margin-left: 550px;
+    text-align: center;
+    width: 100px;
+    height: 50px;
+    font-size: medium;
+    background-color: aliceblue;
+    color: lightskyblue;
+    border: 2px dashed lightskyblue;
+}
+#messageBox{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+#nameBox{
+    margin-top: 50px;
+    margin-left: 25px;
+}
+#emailBox{
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+#back{
+    border: 2px solid plum;
+    background-color: hsla(300, 47%, 75%, .5);
+
 }
